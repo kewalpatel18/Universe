@@ -13,6 +13,15 @@
 		8186D1A3276A51FB00D53B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8186D1A1276A51FB00D53B1D /* Main.storyboard */; };
 		8186D1A5276A51FD00D53B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8186D1A4276A51FD00D53B1D /* Assets.xcassets */; };
 		8186D1A8276A51FD00D53B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8186D1A6276A51FD00D53B1D /* LaunchScreen.storyboard */; };
+		8186D1AF276A5BB900D53B1D /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186D1AE276A5BB900D53B1D /* Planet.swift */; };
+		8186D1B1276A5BD000D53B1D /* Planet+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186D1B0276A5BD000D53B1D /* Planet+Info.swift */; };
+		8186D1B3276A5D2100D53B1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186D1B2276A5D2100D53B1D /* ContentView.swift */; };
+		8186D1B5276A5D5600D53B1D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186D1B4276A5D5600D53B1D /* ViewModel.swift */; };
+		8186D1B7276A5D7E00D53B1D /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186D1B6276A5D7E00D53B1D /* ColorPalette.swift */; };
+		8186D1B9276A5D9C00D53B1D /* PlanetInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186D1B8276A5D9C00D53B1D /* PlanetInfoRow.swift */; };
+		8186D1BB276A5FEF00D53B1D /* ProgressViewWithBackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186D1BA276A5FEF00D53B1D /* ProgressViewWithBackgroundStyle.swift */; };
+		8186D1BD276A604000D53B1D /* SolarButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186D1BC276A604000D53B1D /* SolarButtonStyle.swift */; };
+		8186D1BF276A605000D53B1D /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186D1BE276A605000D53B1D /* AppMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +32,15 @@
 		8186D1A2276A51FB00D53B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8186D1A4276A51FD00D53B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8186D1A7276A51FD00D53B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8186D1AE276A5BB900D53B1D /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		8186D1B0276A5BD000D53B1D /* Planet+Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Planet+Info.swift"; sourceTree = "<group>"; };
+		8186D1B2276A5D2100D53B1D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8186D1B4276A5D5600D53B1D /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8186D1B6276A5D7E00D53B1D /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		8186D1B8276A5D9C00D53B1D /* PlanetInfoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetInfoRow.swift; sourceTree = "<group>"; };
+		8186D1BA276A5FEF00D53B1D /* ProgressViewWithBackgroundStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewWithBackgroundStyle.swift; sourceTree = "<group>"; };
+		8186D1BC276A604000D53B1D /* SolarButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarButtonStyle.swift; sourceTree = "<group>"; };
+		8186D1BE276A605000D53B1D /* AppMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +74,38 @@
 			isa = PBXGroup;
 			children = (
 				8186D19B276A51FB00D53B1D /* AppDelegate.swift */,
+				8186D1C0276A66D900D53B1D /* Models */,
+				8186D1C1276A670500D53B1D /* SwiftUI */,
 				8186D19D276A51FB00D53B1D /* art.scnassets */,
 				8186D19F276A51FB00D53B1D /* ViewController.swift */,
+				8186D1BE276A605000D53B1D /* AppMain.swift */,
+				8186D1B2276A5D2100D53B1D /* ContentView.swift */,
+				8186D1B4276A5D5600D53B1D /* ViewModel.swift */,
 				8186D1A1276A51FB00D53B1D /* Main.storyboard */,
 				8186D1A4276A51FD00D53B1D /* Assets.xcassets */,
 				8186D1A6276A51FD00D53B1D /* LaunchScreen.storyboard */,
 			);
 			path = Universe;
+			sourceTree = "<group>";
+		};
+		8186D1C0276A66D900D53B1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8186D1AE276A5BB900D53B1D /* Planet.swift */,
+				8186D1B0276A5BD000D53B1D /* Planet+Info.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8186D1C1276A670500D53B1D /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				8186D1B8276A5D9C00D53B1D /* PlanetInfoRow.swift */,
+				8186D1B6276A5D7E00D53B1D /* ColorPalette.swift */,
+				8186D1BA276A5FEF00D53B1D /* ProgressViewWithBackgroundStyle.swift */,
+				8186D1BC276A604000D53B1D /* SolarButtonStyle.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8186D1B7276A5D7E00D53B1D /* ColorPalette.swift in Sources */,
+				8186D1AF276A5BB900D53B1D /* Planet.swift in Sources */,
+				8186D1B3276A5D2100D53B1D /* ContentView.swift in Sources */,
+				8186D1BB276A5FEF00D53B1D /* ProgressViewWithBackgroundStyle.swift in Sources */,
 				8186D1A0276A51FB00D53B1D /* ViewController.swift in Sources */,
 				8186D19C276A51FB00D53B1D /* AppDelegate.swift in Sources */,
+				8186D1B5276A5D5600D53B1D /* ViewModel.swift in Sources */,
+				8186D1BF276A605000D53B1D /* AppMain.swift in Sources */,
+				8186D1B9276A5D9C00D53B1D /* PlanetInfoRow.swift in Sources */,
+				8186D1B1276A5BD000D53B1D /* Planet+Info.swift in Sources */,
+				8186D1BD276A604000D53B1D /* SolarButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +349,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +380,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
